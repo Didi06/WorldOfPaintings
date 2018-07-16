@@ -2,10 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Painters from './painters';
-import Art from './art';
-import Container from './container';
-
 
 
 class NavBar extends React.Component {
