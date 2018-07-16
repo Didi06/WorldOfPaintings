@@ -15,7 +15,7 @@ class MyAccount extends Component {
 
     /* axios call to render user profile image  */
     componentDidMount() {
-        axios.get(`https://pixabay.com/get/ea34b2082afc093ed1584d05fb1d4f95e670e5d710ac104497f9c87da5efb3b0_1280.jpg`)
+        axios.get(`https://pixabay.com/get/`)
             .then(response => {
                 console.log(response);
             })
@@ -31,7 +31,7 @@ class MyAccount extends Component {
         return (
             <div id="my">
                 <h2>My  Account</h2>
-                <img src="https://pixabay.com/get/ea34b2082afc093ed1584d05fb1d4f95e670e5d710ac104497f9c87da5efb3b0_1280.jpg" alt="" id="img1" />
+                <img src="https://pixabay.com/get" alt="" id="img1" />
                 <div>
                     <p id="contactus">Account Details</p>
                     <p id="contactus">Change Account Information</p>
